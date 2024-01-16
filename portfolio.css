@@ -1,0 +1,502 @@
+body {
+  margin: 0%;
+}
+#home-page {
+  position: relative;
+  background-color: #000000;
+  color: white;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+}
+#logo {
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  left: 25%;
+  top: 5%;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+#logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#name {
+  top: 5%;
+  left: 0%;
+  font-size: 200%;
+  position: relative;
+}
+#description {
+  font-size: 120%;
+  right: 0%;
+  top: 5%;
+  position: relative;
+  display: block;
+}
+#project-page {
+  background-color: #404040;
+  color: white;
+  position: relative;
+  display: block;
+  left: 0vh;
+  top: 100%;
+  width: 100%;
+  height: auto;
+}
+#projects {
+  color: #bfbfbf;
+  font-size: 200%;
+  right: 0%;
+  top: 0%;
+  position: relative;
+  display: block;
+}
+#project1,
+#project2 {
+  display: flex;
+  align-items: center;
+}
+#project1 img {
+  position: relative;
+  width: 50%;
+  height: auto;
+  border: 5px solid #85bcc7;
+  margin-left: 3.5%;
+  border-radius: 2%;
+}
+#project1 p {
+  font-size: 50%;
+  position: relative;
+  display: inline;
+  flex-grow: 1;
+  margin-left: 2%;
+}
+
+#project2 {
+  margin-top: 6%;
+  flex-direction: row-reverse;
+}
+
+#project2 img {
+  position: relative;
+  width: 45%;
+  height: auto;
+  border: 5px solid #85bcc7;
+  margin-right: 2%;
+  border-radius: 2%;
+}
+#project2 p {
+  font-size: 50%;
+  position: relative;
+  display: inline;
+  flex-grow: 1;
+  margin-left: 2.5%;
+}
+#about-me-page {
+  background-color: #7f7f7f;
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 100%;
+}
+#aboutme {
+  font-size: 200%;
+  right: 0%;
+  top: 0%;
+  position: relative;
+  display: block;
+}
+#about {
+  display: inline-block;
+  text-indent: 20px;
+  margin-top: 2%;
+  font-size: 120%;
+}
+#footer-page {
+  background-color: #bfbfbf;
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+  height: 100vh;
+}
+#contacts {
+  color: #404040;
+  font-size: 150%;
+  right: 0%;
+  top: 1%;
+  position: absolute;
+  display: block;
+  left: 35%;
+}
+#socials {
+  color: #404040;
+  font-size: 150%;
+  right: 10%;
+  top: 20%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 0%;
+}
+#links {
+  color: #404040;
+  font-size: 150%;
+  right: 0%;
+  left: 35%;
+  top: 40%;
+  position: absolute;
+  display: inline-block;
+}
+#certifications {
+  text-indent: 21%;
+  color: #404040;
+  font-size: 150%;
+  right: 0%;
+  left: 11%;
+  top: 65%;
+  position: absolute;
+  display: inline-block;
+}
+#nav-links a {
+  display: block;
+  position: relative;
+  font-size: 70%;
+  top: 10%;
+}
+#socials img {
+  width: 35%;
+}
+#socials a {
+  font-size: 70%;
+}
+#logo-container {
+  display: flex;
+}
+#phone-number,
+#email {
+  font-size: 70%;
+  right: 40%;
+  top: 5%;
+  position: relative;
+  display: block;
+  width: 100vw;
+}
+#certs {
+  font-size: 55%;
+  right: 55%;
+  top: 5%;
+  position: relative;
+  display: block;
+  width: 200vw;
+}
+
+@media screen and (min-width: 375px) {
+  #logo {
+    width: 47%;
+    height: 55%;
+    left: 28%;
+  }
+  #project1 p,
+  #project2 p {
+    font-size: 60%;
+  }
+  #about {
+    font-size: 133%;
+  }
+  #contacts,
+  #socials,
+  #links,
+  #certifications {
+    font-size: 160%;
+  }
+  #phone-number,
+  #email {
+    font-size: 80%;
+  }
+  #certs {
+    font-size: 62%;
+  }
+  #socials a {
+    font-size: 80%;
+  }
+  #nav-links a {
+    font-size: 80%;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  #name {
+    font-size: 260%;
+  }
+  #description {
+    font-size: 130%;
+  }
+  #logo {
+    width: 40%;
+    height: 55%;
+    left: 30%;
+  }
+  #projects,
+  #aboutme {
+    font-size: 230%;
+  }
+  #project1 p,
+  #project2 p {
+    font-size: 70%;
+  }
+  #about {
+    font-size: 140%;
+  }
+  #contacts,
+  #socials,
+  #links,
+  #certifications {
+    font-size: 170%;
+  }
+  #phone-number,
+  #email {
+    margin-top: 2%;
+    font-size: 85%;
+  }
+  #socials {
+    top: 25%;
+  }
+  #links {
+    top: 45%;
+  }
+  #certifications {
+    top: 75%;
+  }
+  #certs {
+    font-size: 64%;
+  }
+  #socials a {
+    font-size: 80%;
+  }
+  #nav-links a {
+    font-size: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #home-page {
+    height: 40vh;
+  }
+  #name {
+    left: 5%;
+    top: -50%;
+    font-size: 320%;
+  }
+  #description {
+    font-size: 160%;
+    top: -50%;
+    left: 5%;
+  }
+  #logo {
+    width: 25%;
+    height: 85%;
+    left: 3%;
+  }
+  #projects,
+  #aboutme {
+    font-size: 260%;
+  }
+  #project1 p,
+  #project2 p {
+    font-size: 130%;
+  }
+  #about-me-page {
+    height: auto;
+    padding-bottom: 3%;
+  }
+  #about {
+    font-size: 145%;
+  }
+  #contacts,
+  #socials,
+  #links,
+  #certifications {
+    font-size: 200%;
+  }
+  #contacts,
+  #socials {
+    position: relative;
+    display: block;
+  }
+  #contacts {
+    left: 2%;
+  }
+  #socials {
+    top: 0%;
+    left: -30%;
+  }
+  #socials a {
+    font-size: 75%;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+  }
+  #socials img {
+    width: 75%;
+  }
+  #logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #phone-number,
+  #email {
+    top: 0%;
+    font-size: 85%;
+    left: 2%;
+  }
+  #contacts,
+  #socials {
+    position: relative;
+    display: block;
+  }
+  #links {
+    left: 2%;
+  }
+  #certifications {
+    top: 45%;
+  }
+  #certs {
+    margin-top: 2%;
+    left: -25%;
+    font-size: 64%;
+  }
+  #nav-links a {
+    font-size: 80%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+    #home-page {
+        position: fixed;
+        background-color: #000000;
+        color: white;
+        width: 30%;
+        height: 100%;
+        text-align: center;
+        overflow-y: auto;
+      }
+      #project-page {
+        background-color: #404040;
+        color: white;
+        position: absolute;
+        left: 30%;
+        top: 0;
+        width: 70%;
+        height: auto;
+        overflow-y: auto;
+      }
+      #about-me-page {
+        background-color: #7f7f7f;
+        position: absolute;
+        left: 30%;
+        top: 90%;
+        width: 70%;
+        height: auto;
+        overflow-y: auto;
+      }
+      #footer-page {
+        background-color: #bfbfbf;
+        position: absolute;
+        left: 30%;
+        top: 156%;
+        width: 70%;
+        height: 50vh;
+        overflow-y: auto;
+      }
+
+  #name {
+    left: 0%;
+    top: 10%;
+    font-size: 500%;
+  }
+  #description {
+    font-size: 200%;
+    top: 10%;
+    left: 0%;
+  }
+  #logo {
+    width: 55%;
+    height: 25%;
+    left: 23%;
+  }
+
+  #projects,
+  #aboutme {
+    font-size: 300%;
+  }
+  #project1 p,
+  #project2 p {
+    font-size: 200%;
+  }
+  #about {
+    font-size: 200%;
+  }
+  #contacts,
+  #socials,
+  #links,
+  #certifications {
+    font-size: 200%;
+  }
+  #contacts,
+  #socials {
+    position: relative;
+    display: block;
+    
+  }
+
+  #contacts {
+    left: 2%;
+  }
+  #socials a {
+    position: relative;
+    font-size: 75%;
+    top: 0%;
+    right: 400%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #socials img {
+    width: 75%;
+  }
+  #logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #phone-number,
+  #email {
+    top: 0%;
+    font-size: 85%;
+    left: 2%;
+  }
+  #links {
+    left: 2%;
+  }
+  #certifications {
+    top: 50%;
+  }
+  #certs {
+    margin-top: 2%;
+    left: -45%;
+    font-size: 64%;
+  }
+  #nav-links a {
+    font-size: 80%;
+  }
+}
